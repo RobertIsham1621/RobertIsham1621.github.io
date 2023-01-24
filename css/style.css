@@ -1,0 +1,600 @@
+﻿/* Designed by Genealogy Web Templates
+   https://genealogywebtemplates.com 
+  
+Main Colors used in this template
+#472a13-darkest color
+#603e1b-dark color
+#7a4f22-medium color
+#915f29-light color
+#ce9252-lighter color
+#f7eee3-lightest color
+*/
+html {height: 101%;}
+header, figure, figcaption, footer, nav, article, section, aside, summary {display: block;}
+body {background: #fff;	font-family: 'Open Sans', Verdana, Helvetica, sans-serif;color: #000000;text-align: left;margin: 0 auto;padding: 0;font-size: 100%;}
+
+/* ======================================================GENERAL STYLES====================================================== */
+
+/* visited: previously visited links */
+a {color: #603e1b; font-weight: normal; text-decoration: none; outline: none;}
+a:visited {color: #603e1b;}
+a:hover {color: #7a4f22; text-decoration: none; font-weight: normal; outline: none;}
+
+/* Horizontal Rules and Clear Floats */
+hr {background-color: #603e1b; border: none; color: #603e1b; height: 1px; clear: both;}
+hr.fancy {background: transparent url('../img/hr.png') center center no-repeat; color: #eee;  border: none; height: 40px;}
+hr.noshow {background-color: transparent; border: none; color: #fff; height: 0; clear: both; visibility: hidden;}
+.clearfix:before, .clearfix:after, .breadcrumbs:before, .breadcrumbs:after, .group:before, .group:after,
+.container:before, .container:after {display: table; content: "";}
+.clearfix:after, .container:after {clear: both;}.white * {color: #ffffff;}
+.clear {clear: both;}
+
+/*  Lists = */
+ul {margin: 10px 0 20px 0;	padding: 0 0 0 15px;}
+ul li a {color: #7a4f22; font-weight: normal; padding: 0;}
+ul li a:hover {color: #404040; font-weight: normal; text-decoration: underline;}
+ul.list1 li {list-style-type: none; position: relative; margin-left: -10px; padding-left: 20px;}
+ul.list1 li:before {position: absolute; font-family: 'FontAwesome'; font-size: 14px; top: 1px; left: 0; content: "\f0a9"; color: #7a4f22;}
+
+.list3 {list-style-type: none; position: relative;}
+.list3 a::before {content: ""; position: absolute; display: block; width: 100%; height: 2px; bottom: 0; left: 0; background-color: #915f29; transform: scaleX(0);
+  transform-origin: top left; transition: transform 0.3s ease;}
+.list3 a {padding-top: 20px; padding-bottom: 20px; text-decoration: none;}
+.list3 a, .list3 a:focus, .list3 a:active {color: inherit;}
+.list3 a {position: relative; display: block; color: #915f29; padding: 10px 0; padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid #e1e1e1; text-transform: uppercase;}
+.list3 a, a:focus, a:active {color: #7a4f22;  text-decoration: none!important;}
+.list3 a, a:focus, a:active, a:hover::before {transform: scaleX(1);}
+
+ul.list4 {margin: 10px 0 20px 0; padding: 0 0 0 0;}
+ul.list4 li {list-style-type: none; line-height: 30px; width:300px; padding-left: 5px; background:#472a13; background-image: linear-gradient(#472a13, #915f29, #472a13); color: #ffffff;font-weight: normal;
+	text-decoration: none; margin: 5px auto; border-radius: 5px;  transition: background-color 0.8s;box-sizing: border-box; display:block;}
+ul.list4 a::before { content: ""; transition: transform 0.3s ease;}
+ul.list4 li a {color: #fff; font-weight: normal; text-decoration: none; display:block;}
+ul.list4 li:hover {color: #fff!important; background: #7a4f22; background-image: linear-gradient(135deg, #7a4f22, #915f29, #7a4f22); font-weight: normal;
+	text-decoration: none;box-sizing: border-box; display:block;}
+ul.list4 li a:hover {color: #fff!important; font-weight: normal; text-decoration: none; display:block;} 
+
+.list-inline {list-style: outside none none; margin-left: -5px; padding-left: 0;}
+.list-inline > li {display: inline-block; padding-left: 5px; padding-right: 5px;}
+
+/* ====================================================== TYPOGRAPHY ============================================================ */
+p a {word-wrap: break-word;}
+h1 {font: 40px 'Philosopher', serif, Verdana, Helvetica, sans-serif; color: #603e1b; margin: .3em 0 .3em 0;}
+h2 {font: 36px 'Philosopher', serif, Arial, Verdana, Helvetica, sans-serif; color: #7a4f22; font-weight:normal; text-align:center; margin: .3em 0; letter-spacing: 1px;}
+h3 {font: 32px 'Philosopher', Verdana, Helvetica, sans-serif; color: #7a4f22; padding: 0; margin: 10px 0; padding: 5px 0;}
+h4 {font: normal 36px 'Great Vibes', Verdana, Helvetica, sans-serif; color: #7a4f22; margin: .3em 0;}
+h5 {font: normal 24px 'Raleway', Verdana, Helvetica, sans-serif; color: #777; margin: .3em 0; font-variant: small-caps;}
+h6 {font: normal 24px 'Philosopher', Verdana, Helvetica, sans-serif; color: #603e1b; margin: .3em 0;}
+/* ======================================================HEADER AREA ======================================================*/
+
+/* ========== Top Nav Coding ========== */
+.nav-menu {clear:both; width: 100%; height: 42px; color: #ffffff; font-size: 16px; text-transform: uppercase; margin: 0; box-sizing: border-box; background: #transparent; }
+/* === NON-MOBILE TOP LEVEL === */
+ul.slimmenu {width: 100%; text-align:center;}
+ul.slimmenu li {text-align: center;}
+ul.slimmenu > li {margin-right: -4px; border-left: 1px solid rgba(0, 0, 0, 0.05);}
+ul.slimmenu li a {font-size: 14px; font-weight: normal; color: #fff; padding: 10px 15px 10px 15px; display: block; font-family: 'Open Sans', sans-serif;}
+ul.slimmenu li a:hover {color: #ffffff; background: #7a4f22;}
+ul.slimmenu li .sub-collapser > i {color: #fff; /* arrow color */  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);}
+
+/* === NON-MOBILE SUB LEVELS === */
+ul.slimmenu li ul li .sub-collapser > i {color: #7a4f22; /* arrow color */}
+ul.slimmenu li ul li {width: 180px; background-color: #eee; text-align: center;}
+ul.slimmenu li ul li a {color: #000;}
+ul.slimmenu li ul li a:hover {color: #fff; background-color: #7a4f22;}
+ul.slimmenu li ul li ul li{background-color: #7a4f22; color:#fff; text-align: center;}
+ul.slimmenu li ul li ul li a{background-color: #7a4f22; color:#fff; text-align: center;}
+
+/* === FOR MOBILE === */
+.menu-collapser {color: #ffffff;  border-radius: 8px 8px 0 0;}
+.collapse-button {background-color: transparent;}
+.collapse-button:hover, .collapse-button:focus {background-color: transparent;}
+.collapse-button .icon-bar {background-color: #fff; display: block; height: 3px; width: 24px; margin: 2px 0;}
+.collapse-button:hover .icon-bar {background-color: #c0c0c0;}
+.menu-collapser {border-radius: 0; color: #fff;}
+
+/* ============ MOBILE TOP LEVEL ============= */
+ul.slimmenu.collapsed li {background: #c36365;}
+ul.slimmenu.collapsed li a {color: #fff;}
+ul.slimmenu.collapsed li a:hover {color: #fff; background: #7a4f22;}
+ul.slimmenu.collapsed li .sub-collapser > i {font-style: normal; color: #fff; /* arrow color */}
+
+/* ========== MOBILE SUB LEVELS ============== */
+ul.slimmenu.collapsed li ul li {background: #e0e0e0;}
+ul.slimmenu.collapsed li ul li a {color: #fff; border-bottom: 1px solid rgba(0, 0, 0, 0.1);}
+ul.slimmenu.collapsed li ul li a:hover {color: #fff; background: #7a4f22; box-shadow: 0 0 40px #c36365 inset, 0 0 20px rgba(0, 0, 0, 0.4) inset;}
+ul.slimmenu.collapsed li ul li ul li {background-color: #472a13;}
+ul.slimmenu.collapsed li ul li ul li a {color: #fff;}
+ul.slimmenu.collapsed li ul li ul li a:hover {color: #fff;}
+
+/* === edit with caution === */
+ul.slimmenu {list-style-type: none; margin: 0; padding: 0; font-size: 0.90em;}
+ul.slimmenu li {position: relative; display: inline-block;}
+ul.slimmenu > li:first-child {border-left: 0;}
+ul.slimmenu > li:last-child {margin-right: 0;}
+ul.slimmenu li ul li:last-of-type {border-bottom: none;}
+ul.slimmenu li ul {margin: 0; list-style-type: none; text-transform: none;}
+ul.slimmenu li .sub-collapser {position: absolute; right: 0; top: 0; width: 30px; height: 100%; text-align: left; z-index: 999; cursor: pointer;}
+ul.slimmenu li .sub-collapser:before {content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: 0;}
+ul.slimmenu li .sub-collapser > i,
+ul.slimmenu li ul li .sub-collapser > i {font-size: 14px; display: inline-block; vertical-align: middle;}
+ul.slimmenu li > ul {display: none; position: absolute; left: 0; top: 100%; z-index: 999; padding-left: 0; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);}
+ul.slimmenu li > ul > li ul {display: none; position: absolute; left: 100%; top: 0; z-index: 999; width: 100%; white-space: normal; padding-left: 0;}
+ul.slimmenu li a:hover,
+ul.slimmenu li ul li a:hover {text-decoration: none;}
+.menu-collapser {width: 96%; margin: 10px 2%; position: relative; text-align: left; height: 42px; line-height: 42px; font-size: 18px; padding: 0 8px; box-sizing: border-box;}
+.collapse-button {position: absolute; right: 8px; top: 50%; width: 40px; background-repeat: repeat-x; border-radius: 4px; color: #ffffff; padding: 7px 10px; cursor: pointer; 
+            font-size: 14px; text-align: center; transform: translate(0, -50%); box-sizing: border-box;}
+ul.slimmenu.collapsed {list-style-type: none; margin: 0 1%; padding: 0; width: 98%; text-align: left;}
+ul.slimmenu.collapsed li {border-left: none; display: block; width: 100%; box-sizing: border-box; z-index: 999; text-align: left;}
+ul.slimmenu.collapsed li .sub-collapser {position: absolute; right: 0; top: 0; width: 40px; height: 48px; text-align: center; z-index: 999; cursor: pointer;}
+ul.slimmenu.collapsed li .sub-collapser > i {font-size: 18px; display: inline-block; vertical-align: middle;}
+ul.slimmenu.collapsed li ul li ul {display: none; position: relative; left: 0; top: 0; z-index: 999; width: 100%; white-space: normal; padding-left: 0;}
+ul.slimmenu.collapsed li > ul {display: none; position: relative; width: 100%; box-shadow: none;}
+ul.slimmenu.collapsed li a {display: block; box-sizing: border-box;}
+ul.slimmenu.collapsed li ul li {display: block; width: 100%; box-sizing: border-box; z-index: 999; text-align: left; border-bottom: 0;}
+ul.slimmenu.collapsed li ul li a {padding-left: 30px; display: block; box-sizing: border-box;}
+ul.slimmenu.collapsed li ul li ul li {display: block; width: 100%; box-sizing: border-box; z-index: 999; text-align: left;}
+ul.slimmenu.collapsed li ul li ul li a {padding-left: 30px;}
+/* hides arrows on non-mobile menu */
+ul.slimmenu li .sub-collapser {visibility: hidden; position: absolute; right: 0; top: 0; width: 0; height: 100%; text-align: center; z-index: 999; cursor: pointer;}
+ul.slimmenu li a {display: block;font-family: 'Open Sans', sans-serif; transition: background-color 0.2s ease-out;}
+ul.slimmenu.collapsed li .sub-collapser {visibility: visible;}
+
+/*  ===================================================== PARAGRAPHS ============================================================== */
+.left {text-align: left;}
+.center {text-align: center;}
+.right {text-align: right;}
+.tiny {font-size: 65%;}
+.small {font-size: 85%;}
+.medium {font-size: 90%;}
+.large {font-size: 120%;}
+.xlarge {font-size: 180%;}
+.xxlarge {font-size: 52px; font-weight: bold;}
+.researchtitle {color: #333; font-size: 16px; text-transform: uppercase;	border-bottom: 1px #333 solid; font-weight: lighter; letter-spacing: 2px; margin: 0 0 15px 0; padding: 0;}
+.authorDate {color: #333; font-size: 0.95em; text-transform: uppercase;	border-bottom: 1px #333 solid; font-weight: lighter; letter-spacing: 2px;margin: 0 0 15px 0; padding: 0;}/* Drop Caps ========== */
+
+/* Drop Caps ========== */
+.dropcap {overflow: hidden;}
+.dropcap:first-letter {color: #603e1b;	display: block; float: left; font: 60px/50px Georgia, Garamond, serif;	padding: 6px 4px 0 0;}
+
+/* =================== Font Awesome Styling ==================== */
+icon::before {display: inline-block; position: relative;}
+*::before, *::after {box-sizing: border-box;}
+[class*="fa-"]::before {font-family: "FontAwesome"; font-weight: 400;}
+a.icon {transition: all 0.3s ease 0s;}
+a.icon:hover {text-decoration: none; background: #7a4f22; color: #fff;}
+
+/* ================================================== IMAGE STYLES ============================================================== */
+img {border: none; box-sizing: border-box;}
+.img-border {margin: 10px; border: 1px #777 solid; max-width: 100%;}
+.img-border-left {float: left; background: #ffffff; border: 1px #aaa solid; padding: 3px; margin: 4px 20px 4px 0; max-width: 100%;}
+.img-border-right {float: right; background: #ffffff; border: 1px #aaa solid; padding: 3px; margin: 4px 20px 4px 0; max-width: 100%;}
+.img-right {margin: 5px 0 10px 18px; float: right; max-width: 100%;}
+.img-left {margin: 5px 18px 10px 0; float: left; max-width: 100%;}
+
+.img-frame {background: #ffffff; border: 1px #aaa solid; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); padding: 3px; margin: 12px; max-width: 100%;}
+.img-frame-right {background: #ffffff; border: 1px #aaa solid; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); padding: 3px; margin: 5px 0 10px 18px; float: right; max-width: 100%;}
+.img-frame-left {background: #ffffff; border: 1px #aaa solid; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); padding: 3px; margin: 5px 18px 10px 0; float: left; max-width: 100%;}
+
+.img-curved {border-radius: 10px; margin: 4px 10px; border: 1px #444 solid;	box-shadow: 0 10px 15px -9px rgba(0, 0, 0, 0.5); max-width:100%;}
+.img-curved-right {border-radius: 10px; margin: 5px 0 10px 18px; float: right; border: 1px #444 solid; box-shadow: 0 10px 15px -9px rgba(0, 0, 0, 0.5); max-width:100%;}
+.img-curved-left  {border-radius: 10px; margin: 5px 18px 10px 0; float: left; border: 1px #444 solid; box-shadow: 0 10px 15px -9px rgba(0, 0, 0, 0.5); max-width:100%;}
+
+.img-shadow {margin: 5px 0; box-shadow: 0 10px 15px -9px rgba(0, 0, 0, 0.5); max-width:100%;}
+.img-shadow-right {margin: 5px 0 0 10px; float: right; box-shadow: 0 10px 15px -9px rgba(0, 0, 0, 0.5); max-width:100%;}
+.img-shadow-left {margin: 5px 10px 0 0; float: left; box-shadow: 0 10px 10px -9px rgba(0, 0, 0, 0.5); max-width:100%;}
+
+.img-round {border-radius: 50%; border: 2px #fff solid; box-shadow: 0 10px 15px -9px rgba(0, 0, 0, 0.7); max-width:100%;}
+.img-round-left {border-radius: 50%; float: left; border: 1px #444 solid; box-shadow: 0 10px 10px -9px rgba(0, 0, 0, 0.5); margin-right: 10px; max-width:100%;}
+.img-round-right {border-radius: 50%; float: right; border: 1px #444 solid; box-shadow: 0 10px 15px -9px rgba(0, 0, 0, 0.5); margin-left: 10px; max-width:100%;}
+
+.img-rotate-right {margin: 20px; transform: rotate(4deg);}
+.img-rotate-left {margin: 20px; transform: rotate(-4deg);}
+
+.img-small {max-width: 150px; height: auto;}
+.img-round2 {border-radius: 50%; border: 1px #127e7e solid;}
+.img-gallery {border: 1px #d0d0d0 solid; padding: 1%; margin: 1% 2%; max-width:100%;}
+.img-logo {max-width: 114px;}
+
+/* ========================================== LAYOUT RULES and BLOCK ELEMENTS ================================================== */
+.container {width: 1200px; text-align:left; margin: 0 auto;}
+.inside {width: 96%; padding: 10px 2%;}
+
+/* ======== Row 1 ======== */
+.row1 {width: 100%; background: #603e1b linear-gradient(#603e1b, #915f29); color: #fff;}
+
+/* ======== Row 2 is the top line of links ======== */
+.row2 {width: 100%; box-sizing: border-box; background: #472a13;  background-image: linear-gradient(#472a13, #7a4f22, #472a13); color: #fff; height: 40px; font-size: 80%;}
+.row2 a {color: #fff; font-weight: normal; text-decoration: none; outline: none;}
+.row2 a:hover {color: #915f29; text-decoration: none; font-weight: normal; outline: none;}
+
+/* ======== Row 3 is the colored background with the lightest color  ======== */
+.row3 {background: #f7eee3;	padding: 8px 0;	margin:0; border-top: 1px solid #ce9252;}
+
+/* ======== Row 4 is the container for footer area   ======== */
+.row4 {background: #202020; padding: 0; color: #fff; border-top: 4px solid #ce9252;}
+.row4 a {color: #fff; font-weight: normal; text-decoration: none; outline: none;}
+.row4 a:hover {color: #f7eee3; text-decoration: none; font-weight: normal; outline: none;}
+
+/* ========== Header and Site Name ============== */
+header {width: 100%; background-color: #603e1b; background: #603e1b linear-gradient(#603e1b, #915f29); color: #fff; margin-bottom:20px;}
+.brand, .brand a, .brand a:hover  {font: 38px 'Philosopher', Verdana, Helvetica, sans-serif;color: #ffffff;	text-decoration: none;	margin: 0;}
+.slogan {font-size: 28px;font-family: 'Great Vibes', cursive, Verdana, Helvetica, sans-serif;color: #ffffff;padding: 10px;font-style:italic;margin: 0;}	
+
+/* ================================================ SECTION BLOCKS ============================================================== */
+
+/* ========== Content Blocks ============== */
+.contentBox2a {float: left; width: 48%; padding: 0; margin: 0 2% 0 0;}
+.contentBox2b {float: right; width: 48%; padding: 0; margin: 0 0 0 2%;}
+
+.contentBox3a {float: left; width: 31.33333%; padding: 0; margin: 0 0 5px 0;}
+.contentBox3b {float: left; width: 31.33333%; padding: 0; margin: 0 1% 5px 1%;}
+.contentBox3c {float: left; width: 31.33333%; padding: 0; margin: 0 0 5px 0;}
+
+.contentBox4a {float: left; width: 23%; padding: 0; margin: 0 1% 0 0;}
+.contentBox4b, .contentBox4c {float: left; width: 23%; padding: 0; margin: 0 1% 0 1%;}
+.contentBox4d {float: left; width: 23%; padding: 0; margin: 0 0 0 1%;}
+
+.contentBox5a {float: left; width: 18%; padding: 0; margin: 0 1% 0 0;}
+.contentBox5b, .contentBox5c, .contentBox5d {float: left; width: 18%; padding: 0; margin: 0 1% 0 1%;}
+.contentBox5e {float: left; width: 18%; padding: 0; margin: 0 0 0 1%;}
+
+.sidebarLeft {float: left; width: 25%; padding: 10px 0; margin: 0 1% 0 0;}
+.contentRight {float: right; width: 73%; padding: 10px 0; margin: 0;}
+
+.sidebarRight {float: right; width: 25%; padding: 10px 0; margin: 0 0 0 1%;}
+.contentLeft {float: left; width: 73%; padding: 10px 0; margin: 0;}
+
+.contentBox25Left  {float: left; width: 23%; padding: 10px 0; margin: 0;}
+.contentBox25Right {float: right; width: 23%; padding: 10px 0; margin: 0;}
+.contentBox75Left  {float: left; width: 73%; padding: 10px 0; margin: 0;}
+.contentBox75Right {float: right; width: 73%; padding: 10px 0; margin: 0;}
+
+.alignleft {float: left; padding: 0; margin: 0;}
+.alignright {float: right; padding: 0; margin: 0;}
+
+/* ====================================== FOOTER CODING =================================================== */
+footer {clear: both; color: #ffffff; padding: 10px;}
+footer a {color: #fff;}
+footer a:hover {color: #ccc;}
+.copyright {letter-spacing: 3px; text-align: center; font-size: 80%; color: #fff; margin: 0; padding:0;}
+
+/* ======================+++++++++++==== SPECIAL BLOCKS ===============++++++++++++++++==================== */
+#topsection {position: relative;width: 90%;padding: 20px 5%;margin: 0 0 30px 0;line-height: normal;}
+#topsection h2 {font: 40px 'Great Vibes', serif, Arial, Verdana, Helvetica, sans-serif;color: #7a4f22;font-weight:normal;text-align:center;margin: .3em 0;}
+.stack {float: right; width: 350px; margin: 2% 0 2% 5%; position: relative;box-sizing: border-box;	z-index: 10;}
+.stack img {max-width: 100%; height: auto; vertical-align: bottom; border: 10px solid #fff; box-sizing: border-box;box-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);}
+/*.stack:last-of-type { margin-right: 0; }*/
+.stack:before, .stack:after {content: ""; width: 100%; height: 100%; position: absolute; border: 10px solid #fff; box-sizing: border-box;box-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);}
+.stack:before {background-color: #927f6e; top: 0; left: -10px; z-index: -10; transform: rotate(-5deg);} 
+.stack:after {background-color: #919191; top: 5px; left: 0;z-index: -20; transform: rotate(6deg);} 
+#topsection p:first-of-type {color: #603e1b;font: normal 20px 'Open Sans', Georgia, Garamond, serif;text-align: center;padding-bottom: 0;margin-bottom: 0;}
+#topsection p:last-of-type {color: #202020;font: 14px 'Open Sans', Georgia, Garamond, serif;font-style: italic;text-align: center;	padding-bottom: 0;margin-bottom: 0;}
+#topsection p {color: #202020;font-size: 16px;	text-transform: none;padding-bottom: 0;margin-bottom: 0;}
+
+/* -----  Snip2 ----- */
+.snip2 {font-family: sans-serif; position: relative; overflow: hidden; max-height: 350px; max-width: 250px; margin: 0 auto; margin-bottom: 20px; width: 90%; color: #faece8; text-align: left;
+	background-color: #000; border: 1px solid #404040; border-radius: 10px;}
+.snip2 * {-webkit-box-sizing: border-box;  box-sizing: border-box;  -webkit-transition: all 0.45s ease;  transition: all 0.45s ease;}
+.snip2 img {vertical-align: top; max-width: 140%; backface-visibility: hidden;}
+.snip2 figcaption {position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: 1; padding: 30px; background-color: #000; -webkit-transform: translateX(-100%); transform: translateX(-100%); -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);}
+.snip2 p {margin-top: 12px;	color: #fff!important; font-family: 'Open Sans', serif!important; font-size: 14px!important;}
+.snip2 h2 {font-size: 24px; margin: 0; font-family: 'Open Sans', serif; color: #f7eee3;}
+.snip2 h3 {color: #ce9252; border-bottom: 1px #ce9252 solid; font-family: "Open Sans", serif!important; font-size: 18px; font-weight: normal; letter-spacing: 1px; text-align:center; margin: 0;}
+.snip2 a {position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: 1;}
+.snip2:hover > img,
+.snip2.hover > img {-webkit-transform: translateX(-100%); transform: translateX(-100%);}
+.snip2:hover figcaption, .snip2.hover figcaption {-webkit-transform: translateX(0%); transform: translateX(0%);}
+
+/* Ticker============= */
+#ticker {list-style: none outside none; margin: 0; min-height: 150px;}
+#ticker li {margin: 0; background: none; padding: 0;}
+#ticker p {color: #202020;	font-size: 18px; padding-left: 20px; margin-top: 0; padding-top: 0; text-align:left;}
+#ticker .tcontent {color: #202020; padding: 15px; text-align:left;}
+#ticker .author {font: 34px 'Philosopher', Verdana, Helvetica, sans-serif; color: #4f7ebb; margin: .2em 0; padding: 0; letter-spacing:-1px;}
+.testimonial {position: relative; color: #202020;}
+
+/* ------- Accordion ------ */
+#acc dl {position: relative; width: 100%; color: #000; padding: 0; margin: 0 auto;}
+#acc dt {margin: 0 0 1px 0; padding: 4px 4px 4px 20px; text-align: left; font: 20px 'Raleway', Verdana, Helvetica, sans-serif; color: #ffffff; cursor: pointer;
+	background: #915f29; border-radius: 4px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.3) inset;	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);}
+#acc dt:hover {color: #ffffff; background: #ce9252; box-shadow: 0 0 15px #222 inset; text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); 	transition: all 0.4s ease 0.0s; -webkit-transition: all 0.4s ease 0.0s;}
+#acc dd {width: 94%; padding: 5px 2%; margin: 0 auto 30px auto; border-top: none;}
+
+/* ======================================================BUTTONS & MISCELLANEOUS ================================================= */
+/* ----- Buttons ----- */
+.btn-detail {position: relative; background-color:#603e1b; background:#603e1b linear-gradient(#603e1b, #7a4f22); background-position: center; transition: background-color 0.8s; border: 1px solid #603e1b; color: #fff!important;
+	cursor: pointer; font-weight: normal; font-size: 80%; text-decoration: none; padding: 5px 35px 5px 5px; border-radius: 5px; text-transform:uppercase;}
+.btn-detail:after {position: absolute; font-family: 'FontAwesome'; content: "\f0a9"; top: 7px; right: 10px;}
+.btn-detail:hover {background-color: #915f29; background-image: radial-gradient(circle, transparent 1%, #603e1b 1%); background-position: center; background-size: 15000%; border: 1px solid #603e1b;
+	color: #fff; font-weight: normal; text-decoration: none;}
+.btn-detail a {color: #ffffff; text-decoration: none !important; font-weight: normal; outline: none;}													
+.btn-detail:active {transition: background-color 0s; background-color: #915f29; background-size: 100%;}
+
+.btn-small {position: relative; background-color:#603e1b; background:#7a4f22 linear-gradient(#7a4f22, #603e1b); background-position: center; transition: background-color 0.8s; border: 1px solid #603e1b; color: #fff!important;
+	cursor: pointer; font-weight: normal; font-size: 12px; text-decoration: none; padding: 5px 5px 5px 5px; border-radius: 5px; text-transform:uppercase; float:right;}
+.btn-small:hover {background-color: #915f29; background-image: radial-gradient(circle, transparent 1%, #7a4f22 1%); background-position: center; background-size: 15000%; border: 1px solid #603e1b;
+	color: #fff; font-weight: normal; text-decoration: none;}
+.btn-small a {color: #ffffff; text-decoration: none !important; font-weight: normal; outline: none;}
+.btn-small:active {transition: background-color 0s; background-color: #915f29; background-size: 100%;}
+
+/* Ticker============= */
+#ticker {list-style: none outside none; margin: 0; min-height: 220px;}
+#ticker li {margin: 0; background: none; padding: 0;}
+#ticker p {color: #000;	font-size: 18px; padding-left: 20px; margin-top: 0; padding-top: 0;}
+#ticker .tcontent {color: #000; padding: 28px; text-align: left;}
+#ticker .author {color: #777; text-align: right; font-size: 0.90em; font-style: italic; letter-spacing: 2px; padding: 0 10px 20px 0;}
+.testimonial {position: relative; color: #915f29;}
+
+.bignumber {border-radius: 50%;background: #472a13;box-shadow: 0 0 20px #7a4f22 inset;	color: #ffffff;	display: block;	float: left;font: normal 30px/50px 'Raleway', Garamond, Georgia, serif;
+	margin: -10px 10px 5px 0;text-align: center;text-transform: uppercase;height: 50px;width: 50px;text-shadow: 1px 1px 1px rgba(0,0,0,0.5);}
+.bigletters {font: 2.0em 'Raleway', Arial, Verdana, Helvetica, sans-serif;font-weight: bold;text-align: center;color: #472a13;margin: 5px;text-shadow: 1px 1px 1px rgba(0,0,0,0.5);}
+
+/* ======== CONTACT FORM ======== */
+form.contactform {width: 99%; text-align: left;}
+.contactform label {width: 99%; text-align: left; font-style: italic; display: block; margin-bottom: 4px;}
+.contactform input {width: 99%; border: 1px #c0c0c0 solid; background-color: #efefef; padding: 5px; margin-bottom: 10px; color: #000000;}
+.contactform textarea {width: 99%; border: 1px #c0c0c0 solid; background-color: #efefef; padding: 5px; resize:none; color: #000000;}
+.contactform .submit {width: 100px; margin: 10px 0 20px 0; cursor: pointer; color: #444; font: 16px 'Open Sans', Verdana, Helvetica, sans-serif; font-weight: normal; padding: 1px 14px;
+	text-decoration: none; background-color: #eee; background: linear-gradient(#eee, #ccc); border: solid 1px #ccc;	border-radius: 5px; box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.8), 0 1px 1px rgba(0, 0, 0, 0.3);}
+.contactform .submit:hover {text-decoration: none; color: #eee; background-color: #1c77a8; background: linear-gradient(#1c77a8, #35a2dd); border: solid 1px #1c77a8;	border-radius: 5px; box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.2), 0 1px 1px rgba(0, 0, 0, 0.5);}
+
+/* Fieldset Legend ========== */
+fieldset {width: 90%; border: 1px dashed #c0c0c0; padding: 20px 3%; margin: 20px 2%;}
+legend {color: #000; font: 30px 'Raleway', Verdana, Helvetica, sans-serif; background-color: #ffffff; padding: 0 10px;}
+
+/* Google Maps ========== */
+.googlemaps {position: relative; padding-bottom: 10%; height: 450px; overflow: hidden; background-color: #ccc; border: 1px solid #c0c0c0;}
+.googlemaps iframe {position: absolute; top: 0; left: 0; width: 100% !important; height: 100% !important;}
+
+/* Pagination ========== */
+.pagination {display: block; text-align: center; height: 22px; line-height: 21px; clear: both; padding-top: 3px; margin: 20px 0; font-size: 12px; font-weight: normal;}
+.pagination a {padding: 7px; padding-top: 2px; padding-bottom: 2px; border: 1px solid #c0c0c0; margin-left: 5px; text-decoration: none; background-color: #f5f5f5; color: #000; width: 22px; font-weight: normal; border-radius: 3px;}
+.pagination a:hover {background-color: #603e1b; border: 1px solid #000; color: #fff;}
+.pagination .active_link {padding: 7px; padding-top: 2px; padding-bottom: 2px; border: 1px solid #000; margin-left: 5px; text-decoration: none; background-color: #472a13; color: #fff; cursor: default; border-radius: 3px;}
+.pagination .disabled_pagination {padding: 7px; padding-top: 2px; padding-bottom: 2px; border: 1px solid #e5e5e5; margin-left: 5px; text-decoration: none; background-color: #fff; color: #d5d5d5; cursor: default; border-radius: 3px;}
+
+/* ======= PHOTO GALLERY ========= */
+.photogallery {background-color: #f2f2f2; border: 15px #ffffff solid; padding: 20px; margin: 0 1% 40px 1%; text-align: center;  box-shadow: 0 5px 15px -4px rgba(0, 0, 0, 0.8);}
+.photogallery img {background-color: #ffffff; padding: 7px; border: 1px #c0c0c0 solid; margin: 3px 3px 12px 3px; box-shadow: 0 10px 15px -9px rgba(0, 0, 0, 0.8);}
+.photogallery p {text-align: center;}
+
+/* Show Code ========== */
+.showcode {font-family: "Courier New", Courier, monospace; font-size: 16px; background-color: #f5f5f5; border-radius: 3px; border: 1px dotted #bbb;  color: #0000c0; vertical-align: middle; padding: 1px 4px;}
+.codeblock {margin: 10px 1% 20px 1%;background-color: #f5f5f5;overflow: auto;border: 1px #ccc solid;border-radius: 10px;}
+.codeblock .title {background-color: #ddd;padding: 3px 25px;color: #000;letter-spacing: 2px;text-transform: uppercase;}
+.codeblock .insidecode {font-family: "Courier New", Courier, monospace;font-size: 18px;	color: #000;padding: 10px;overflow: auto;}
+.codeblock ol {list-style: none;margin: 0;padding: 0;white-space: nowrap;}
+.highlight {background-color: #FFFF00;color: #000;}
+
+/* Scroll to Top ========== */
+.scroll-to-top {display: none;position: fixed; bottom: 20px; right: 10px;z-index: 5;width: 30px;height: 30px;padding: 8px;text-align:center;color: #ffffff;text-decoration: none;background-color: #7a4f22;text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);border-radius: 50%;}
+.scroll-to-top:hover {text-decoration: none;	background-color: #777;	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);}
+.scroll-to-top a, .scroll-to-top a:hover {text-decoration: none;}
+
+/* WOW ========== */
+.wow {opacity: inherit;}
+/* ======== ANIMATION EFFECTS ======== 
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+Copyright (c) 2014 Daniel Eden
+====================================== */
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+@-webkit-keyframes zoomIn {
+  0% {opacity: 0; -webkit-transform: scale3d(.3, .3, .3); transform: scale3d(.3, .3, .3);  }
+  50% {opacity: 1;} }
+@keyframes zoomIn {
+  0% {opacity: 0; -webkit-transform: scale3d(.3, .3, .3); transform: scale3d(.3, .3, .3);}
+  50% {opacity: 1;} }
+.zoomIn {-webkit-animation-name: zoomIn; animation-name: zoomIn;}
+
+/* ================================================================================================================================== */
+/* ================================================================= MEDIA QUERIES ================================================== */
+/* ================================================================================================================================== */
+                                               /* ================= SMALL DEVICE 01 ==================== */
+/* ================================================================================================================================== */
+@media screen and (max-width: 320px) {
+	.container  {width: 98%; margin: 0 auto;}
+	.nav-menu .search-menu-item {display:block !important;}
+	.row2 {height: 110px;}
+	.navrow  {height: auto;}
+	div.icons-rt {margin-top: -20px;}
+	ul.tngdd {float:left!important;}
+	/* === Top section ==== */
+	.stack {width: 250px; height: auto; clear:both; margin-bottom: 30px;}
+	.topsection {width: 96%; padding: 50px 0;}
+	/* === content box coding ==== */
+   	.contentBox2a, .contentBox2b, 
+   	.contentBox3a, .contentBox3b, .contentBox3c {width: 98%; margin: 0 1% 20px 1%; padding: 0; float: none;}
+   	.contentBox4a, .contentBox4b, .contentBox4c, .contentBox4d,
+   	.contentBox5a, .contentBox5b, .contentBox5c, .contentBox5d, .contentBox5e {width: 98%; margin: 0 1% 20px 1%; padding: 0; float: none;}
+   	.sidebarLeft, .sidebarRight {width: 98%; margin: 1%; padding: 0; float: none;}
+   	.contentRight, .contentLeft {width: 98%; margin: 1%; padding: 0; float: none;}
+   	.contentBox25Left, .contentBox25Right {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+   	.contentBox75Left {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+   	.contentBox75Right {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+   		/* === miscellaneous coding ==== */
+	h1 {font-size: 36px;}
+	h2 {font-size: 32px}
+	.brand, .brand a, .brand a:hover  {font-size: 28px; margin-top: 0;}
+	.slogan {font-size: 14px;text-align: center;}
+	.text-align-right {text-align:center; padding-right: 0;}
+	#charts { width: 300px !important; margin: 0 auto;}
+	.focus-chart {width: 300px !important; height: auto !important;}
+}
+/* ================================================================================================================================== */
+                                   /* ================= SMALL DEVICE 02 ======================= */
+/* ================================================================================================================================== */
+@media screen and (min-width: 321px) and (max-width: 480px) {
+	.container {width: 98%; margin: 0 auto;}
+	.nav-menu .search-menu-item {display:block !important;}
+	.row2 {height: 110px;}
+	.navrow  {height: auto;}
+	div.icons-rt {margin-top: -20px;}
+	ul.tngdd {float:left!important;}
+	/* === Top section ==== */
+	.stack {width: 300px; height: 300px; clear:both; margin-bottom: 30px;}
+	.topsection {width: 96%; padding: 50px 0;}
+/* === content box coding ==== */
+   	.contentBox2a, .contentBox2b, 
+   	.contentBox3a, .contentBox3b, .contentBox3c {width: 98%; padding: 0; margin: 0 auto 20px auto; float: none; max-width: 450px;}
+   	.contentBox4a, .contentBox4b, .contentBox4c, .contentBox4d,
+   	.contentBox5a, .contentBox5b, .contentBox5c, .contentBox5d, .contentBox5e {width: 98%; padding: 0; margin: 0 auto 20px auto; float: none; max-width: 450px;}
+   	.sidebarLeft, .sidebarRight {width: 98%;  margin: 0 auto 0 auto; float: none; max-width: 450px;}
+   	.contentRight, .contentLeft {width: 98%; margin: 1%; padding: 0;}
+	.contentBox25Left, .contentBox25Right {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px; text-align: center;}
+	.contentBox75Left {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	.contentBox75Right {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	/* === miscellaneous coding ==== */
+	.text-align-right {text-align:center; padding-right: 0;}
+	.text-align-right {text-align:center; padding-right: 0;}
+	.slogan {clear: both;text-align: center;}
+}
+/* ================================================================================================================================== */
+                                   /* =================== SMALL DEVICE 03 ===================== */
+/* ================================================================================================================================== */
+@media screen and (min-width: 481px) and (max-width: 623px) {
+	.container {width: 98%; margin: 0 auto;}
+	.nav-menu .search-menu-item {display:block !important;}
+	.row2 {height: 110px;}
+	.navrow  {height: auto;}
+	div.icons-rt {margin-top: -20px;}
+	ul.tngdd {float:left!important;}
+	/* === Top section ==== */
+	.stack {clear:both; float: none; margin: 0 auto; margin-top: 20px; margin-bottom: 30px;}
+	.topsection {width: 90%; margin: 0 auto; margin-top: 50px !important;}
+	/* === content box coding ==== */
+   	.contentBox2a, .contentBox2b, 
+   	.contentBox3a, .contentBox3b, .contentBox3c {width: 98%; padding: 0; margin: 20px auto; float: none; max-width: 450px;}
+   	.contentBox4a, .contentBox4b, .contentBox4c, .contentBox4d,
+   	.contentBox5a, .contentBox5b, .contentBox5c, .contentBox5d, .contentBox5e {width: 98%; padding: 0; margin: 20px auto; float: none; max-width: 450px;}
+   	.sidebarLeft, .sidebarRight {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+   	.contentRight, .contentLeft {width: 98%; float: none; margin: 1%; padding: 0;}
+	.contentBox25Left, .contentBox25Right {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	.contentBox75Left {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	.contentBox75Right {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	/* === miscellaneous coding ==== */
+	.text-align-right {text-align:center; padding-right: 0;}
+	.slogan {clear: both;text-align: center;}
+}
+/* ================================================================================================================================== */
+                                    /* ====================== MID DEVICE 01 ====================== */
+/* ================================================================================================================================== */
+@media screen and (min-width: 624px) and (max-width: 669px) {
+	.container {width: 97%; margin: 0 auto;}
+	.row2 {height: 110px;}
+	.navrow  {height: auto;}
+	div.icons-rt {margin-top: -20px;}
+	ul.tngdd {float:left!important;}
+	/* === Top section ==== */
+	.stack {clear:both; margin-top: 20px; margin-bottom: 30px;}
+	.topsection {width: 90%; margin: 0 auto; margin-top: 50px !important;}
+	/* === content box coding ==== */
+   	.contentBox2a, .contentBox2b, 
+   	.contentBox3a, .contentBox3b, .contentBox3c {width: 98%; padding: 0; margin: 0 auto 20px auto; float: none; max-width: 450px;}
+   	.contentBox4a, .contentBox4b, .contentBox4c, .contentBox4d,
+   	.contentBox5a, .contentBox5b, .contentBox5c, .contentBox5d, .contentBox5e {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+   	.sidebarLeft, .sidebarRight {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+   	.contentRight, .contentLeft {width: 98%; margin: 1%; padding: 0;}
+	.contentBox25Left, .contentBox25Right {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	.contentBox75Left {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	.contentBox75Right {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	/* === miscellaneous coding ==== */
+	.text-align-right {text-align:center; padding-right: 0;}
+	.slogan {clear: both;text-align: center;}
+}
+/* ================================================================================================================================== */
+                                                  /* ================== MID DEVICE 02 ================ */
+/* ================================================================================================================================== */
+@media screen and (min-width: 670px) and (max-width: 768px) {
+	.container {width: 98%; margin: 0 auto;}
+	.row2 {height: 110px;}
+	.navrow  {height: auto;}
+	div.icons-rt {margin-top: -20px;}
+	ul.tngdd {float:left!important;}
+	/* === Top section ==== */
+	.stack {clear:both; float: none; margin: 0 auto; margin-top: 20px; margin-bottom: 30px;}
+	.topsection {width: 96%; margin: 0 auto; margin-top: 50px !important;}
+	/* === content box coding ==== */
+	.contentBox2a, .contentBox2b,
+   	.contentBox3a, .contentBox3b, .contentBox3c {width: 98%; padding: 0;  margin: 0 auto 20px auto; float: none; max-width: 450px;}
+   	.contentBox4a, .contentBox4b, .contentBox4c, .contentBox4d,
+   	.contentBox5a, .contentBox5b, .contentBox5c, .contentBox5d, .contentBox5e {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+   	.sidebarLeft, .sidebarRight {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+   	.contentRight, .contentLeft {width: 98%; margin: 1%; padding: 0;}
+	.contentBox25Left, .contentBox25Right {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	.contentBox75Left {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	.contentBox75Right {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	/* === miscellaneous coding ==== */
+	.text-align-right {text-align:center; padding-right: 0;}
+	.slogan {clear: both;text-align: center;}
+}
+/* ================================================================================================================================== */
+                                               /* ================== MID DEVICE 03 ================= */
+/* ================================================================================================================================== */
+@media screen and (min-width: 769px) and (max-width: 800px) {
+	.container {width: 98%; margin: 0 auto;}
+	.row2 {height: 70px;}
+	.navrow {height: auto;}
+	div.icons-rt {margin-top: -20px;}
+	ul.tngdd {float:left!important;}
+	/* === Top section ==== */
+	.stack {clear:both; float: none; margin: 0 auto; margin-top: 20px; margin-bottom: 30px;}
+	.topsection {width: 98%; margin: 0 auto; margin-top: 50px !important;}
+	/* === content box coding ==== */
+   	.contentBox2a, .contentBox2b,
+   	.contentBox3a, .contentBox3b, .contentBox3c {width: 98%; padding: 0;  margin: 0 auto 20px auto; float: none; max-width: 450px;}
+   	.contentBox4a, .contentBox4b, .contentBox4c, .contentBox4d,
+   	.contentBox5a, .contentBox5b, .contentBox5c, .contentBox5d, .contentBox5e {width: 48%; margin: 1%; padding: 0;}
+   	.sidebarLeft, .sidebarRight {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+   	.contentRight, .contentLeft {width: 98%; margin: 1%; padding: 0;}
+	.contentBox25Left, .contentBox25Right {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	.contentBox75Left {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	.contentBox75Right {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	/* === miscellaneous coding ==== */
+	.slogan {clear: both;text-align: center;}
+}
+/* ================================================================================================================================== */
+                                         /* ================== LG DEVICE 01 ================= */
+/* ================================================================================================================================== */
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+  	.container {width: 98%;	margin: 0 auto;}
+	.row2 {height: 70px;}
+	.navrow {height: auto;}
+	div.icons-rt {margin-top: -20px;}
+	.topsection {width: 96%; padding: 50px 0;}
+    .contentBox4a, .contentBox4b, .contentBox4c, .contentBox4d{width: 48%; margin: 1%; padding: 0;}
+  	.sidebarLeft, .sidebarRight {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+   	.contentRight, .contentLeft {width: 98%; margin: 1%; padding: 0;}
+	.contentBox25Left, .contentBox25Right {width: 98%; padding: 0; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	.contentBox75Left {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	.contentBox75Right {float: none; width: 98%; margin: 0 auto 0 auto; float: none; max-width: 450px;}
+	/* === miscellaneous coding ==== */
+	.slogan {clear: both;text-align: center;}
+}
+/* ================================================================================================================================== */
+                                         /* ================== LG DEVICE 02 ================= */
+/* ================================================================================================================================== */
+@media screen and (min-width: 1025px) and (max-width: 1279px) {
+	.container {width: 98%; margin: 0 auto;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
