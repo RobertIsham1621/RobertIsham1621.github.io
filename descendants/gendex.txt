@@ -1,4 +1,4 @@
-;; gendex.txt generated 24 Jan 2023
+;; gendex.txt generated 25 Jan 2023
 ;; by Ancestral Quest
 ;;
 <a href="aqwg43.htm#4025"> Agnes</a>
@@ -1694,8 +1694,7 @@
  b.1919 - Greatworth, Northamptonshire, England, United Kingdom<a href="aqwg09.htm#502"> William Henry</a>
  b.1835 - Chipping Warden, Northamptonshire, England, United Kingdom<a href="aqwg14.htm#667"> William Josiah</a>
  b.1870 - Halse, Somerset, England, United Kingdom<a href="aqwg22.htm#1965"> Winifred A</a>
- b.1937 - <a href="aqwg16.htm#45"> William</a>
- b.1862 - Salt Lake City, Salt Lake, Utah, United States<a href="aqwg56.htm#2652"> Keith</a>
+ b.1937 - <a href="aqwg56.htm#2652"> Keith</a>
  b.1927 - Cedar City, Iron, Utah, United States<a href="aqwg27.htm#2236">[Unknown]</a>
  b.1932 - San Antonio, Bexar, Texas, United States<a href="aqwg12.htm#1154">[Unknown]</a>
  r.1901 - Barton Hill, Gloucestershire, England, United Kingdom<a href="aqwg27.htm#2265"> Afton</a>
@@ -2026,7 +2025,8 @@
  b.1922 - Hurricane, Washington, Utah, United States<a href="aqwg21.htm#1903"> Wilfred John</a>
  b.1894 - Rugby, Warwickshire, England, United Kingdom<a href="aqwg12.htm#1157"> Wilfrid George</a>
  d.1899 - Bristol, England, United Kingdom<a href="aqwg10.htm#43"> William</a>
- b.1840 - Solihull, Warwickshire, England, United Kingdom<a href="aqwg06.htm#138"> William</a>
+ b.1840 - Solihull, Warwickshire, England, United Kingdom<a href="aqwg16.htm#45"> William</a>
+ b.1862 - Salt Lake City, Salt Lake, Utah, United States<a href="aqwg06.htm#138"> William</a>
  b.1778 - Greatworth, Northamptonshire, England<a href="aqwg48.htm#2286"> William</a>
  b.1927 - Royal, Carbon, Utah, United States<a href="aqwg06.htm#144"> William</a>
  b.1812 - Greatworth, Northamptonshire, England, United Kingdom<a href="aqwg06.htm#145"> William</a>
