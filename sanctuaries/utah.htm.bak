@@ -49,7 +49,7 @@ Design by: GenealogyWebTemplates.com
 					<li><a href="../robert/family.html">Family</a></li>
 				</ul>
 				</li>
-			<li><a href="../descendants/aqwg01.htm">Genealogy</a>
+			<li><a href="../genealogy/index.html">Genealogy</a>
 			<ul>
 				<li><a href="../descendants/aqwg01.htm">Descendants</a></li>
 				<li><a href="../ancestors/aqwg01.htm">Ancestors</a>
@@ -69,10 +69,8 @@ Design by: GenealogyWebTemplates.com
 			</li>
 			<li><a href="../journeys/index.html">Journeys</a>
 				<ul>
-					<li><a href="../journeys/virginia.htm">To Virginia by Sea</a></li>
-					<li><a href="../journeys/australia.htm">To Australia by Sea</a></li>
-					<li><a href="../journeys/newyork.htm">To New York by Sea</a></li>
-					<li><a href="../journeys/utah.htm">To Utah by Land</a></li>
+					<li><a href="../journeys/atlantic.html">Across the Atlantic</a></li>
+					<li><a href="../journeys/westward.html">Westward Treks</a>
 				</ul>
 			</li>
 			<li><a href="../sanctuaries/index.htm">Sanctuaries</a>
@@ -96,54 +94,48 @@ Design by: GenealogyWebTemplates.com
 	</div>
 </header>
    <div class="container">	
-	
+
 	<div class="contentRight">
-	<p>During his life, Robert's last name was spelled three different ways:</p>
-	<ul>
-		<li>Isome
-			<ul>
-				<li>at his 1621 christening in Cheshunt; </li>
-				<li>at the christening of his oldest son John in Green's Norton. </li>
-			</ul>
-		</li>
-		<li>Isham
-			<ul>
-				<li>on the port registers of London in 1635.</li>
-			</ul> 
-		</li>
-		<li>Isum
-			<ul>
-				<li> at his marriage in Green's Norton in 1642,</li>
-				<li> at the christening of his daughter Ayme and of his son William,</li>
-				<li>and at his burial. </li>
-		</ul> 
-		</li>
-	</ul>
-	<p> Most of the descendants who have inherited Robert's surname have used one of these three spellings:</p>
-	<ul>
-		<li>Isom
+		<h1>Utah Sanctuaries </h1>
 
-		</li>
-		<li>Isham
+		<h4>Mountain Dell</h4>
+		<p><img alt="Mountain Dell" class="img-curved-right" src="../img/mountaindell.jpg"> 
+			A branch of the Virgin Ward of the Church of Jesus Christ of Latter-day Saints was organized in the small settlement of Mountain Dell, Utah in 1863. Owen Isom was the branch president from 1869 to 1874, and Samuel Isom became the branch president in 1898.
 
-		</li>
-		<li>Isum
+		</p>
 
-		</li>
-	</ul>
-	</div>
-	<aside class="sidebarLeft">
-		<h4>Surname</h4>
-		<ul class="list1">
-			<li><a href="spelling.htm">Spelling</a></li>
-			<li><a href="statistics.htm">Statistics</a></li>
-		</ul>
-		<p></p>
-</aside>
 <div class="clear"></div>
-</div>	
-   </div>
 
+		<h4>Virgin</h4>
+			<p><img alt="Virgin" class="img-curved-left" src="../img/virgin.jpg"> A church was built in Virgin, Utah in 1866. Samuel Isom served as bishop here from 1905 to 1907, when he became the bishop of the Hurricane ward. </p>
+	<div class="clear"></div>
+
+	<h4>Hurricane</h4>
+	<p><img alt="Hurricane" class="img-curved-right" src="../img/hurricane.jpg"> A ward of the Church of Jesus Christ of Latter-day Saints was organized in Hurricane, Utah on 31 September 1907. The first bishop was Samuel Isom, who was transferred from the Virgin ward. In early 1908, the ward built a meeting hall ("The Hurricane Social Hall") on the southwest corner of State and Main Streets in Hurricane.
+		 Samuel Isom served as bishop until 1922.  </p>
+		 <div class="clear"></div>
+	<h4>St. George</h4>
+	<p><img alt="St. George" class="img-curved-left" src="../img/stgeorge.jpg"> The St. George temple was dedicated on 6 April 1877. On 18 May 1882, Owen and Elizabeth Howard Isom participated in ordinances in the temple. On 16 March 1883, a number of the living and deceased children of Owen and Elizabeth were sealed to them in the temple. On 24 March 1897, Katherine Wolfe Isom received her initiatory and endowment ordinances here. Richard Isom married Mary Eleanor Jepson in the St. George temple on 12 September 1905. On 13 June 1916 in the St.
+		 George temple, Richard and his siblings were sealed to their deceased parents, William Isom and Katherine Wolfe.  </p>
+</div>
+	<aside class="sidebarLeft">
+				 <h4>Sanctuaries</h4>
+				 <ul class="list1">
+					 <li><a href="northamptonshire.htm">In Northamptonshire</a></li>
+					 <li><a href="london.htm">In London</a></li>
+					 <li><a href="hertfordshire.htm">In Hertfordshire</a></li>
+					 <li><a href="utah.htm">In Utah</a></li>
+				 </ul>
+				 <p></p>
+	</aside>
+	<div class="clear"></div>
+		 </div>	
+
+
+
+
+
+	</div>
 
 			
 <div class="row4">
