@@ -1,4 +1,4 @@
-;; gendex.txt generated 28 Jan 2023
+;; gendex.txt generated 01 Feb 2023
 ;; by Ancestral Quest
 ;;
 <a href="aqwg04.htm#712"> ?</a>
@@ -89,7 +89,7 @@
  b.1359 - Dorset, England, United Kingdom<a href="aqwg10.htm#871"> Thomas</a>
  b.1342 - Thrapston, Northamptonshire, England, United Kingdom<a href="aqwg10.htm#872"> Thomas</a>
  b.1323 - Thrapston, Northamptonshire, England, United Kingdom<a href="aqwg05.htm#742"> Jane</a>
- b.1513 - England<a href="aqwg11.htm#920"> William Mainwaring</a>
+ b.1513 - England<a href="aqwg11.htm#920"> Wiliam Mainwaring</a>
  b.1345 - Over Peover, Cheshire, England, United Kingdom<a href="aqwg10.htm#874"> Margery</a>
  b.1367 - Meering, Nottinghamshire, England, United Kingdom<a href="aqwg10.htm#868"> Elizabeth</a>
  b.1340 - Sussex, England<a href="aqwg05.htm#729"> Anne</a>
