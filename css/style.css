@@ -165,6 +165,26 @@ icon::before {display: inline-block; position: relative;}
 a.icon {transition: all 0.3s ease 0s;}
 a.icon:hover {text-decoration: none; background: #7a4f22; color: #fff;}
 
+/* FIGURE STYLES*/
+figure {
+	float: left;
+    border: none;
+    display: flex;
+    flex-flow: column;
+    padding: 20-px;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: tiny;
+    padding: 3px;
+    text-align: center;
+}
+
 /* ================================================== IMAGE STYLES ============================================================== */
 img {border: none; box-sizing: border-box;}
 .img-border {margin: 10px; border: 1px #777 solid; max-width: 100%;}
