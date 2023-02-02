@@ -171,9 +171,8 @@ figure {
     display: flex;
     flex-flow: column;
     padding: 20-px;
-    max-width: 450px;
+    max-width: 550px;
     margin: auto;
-	float: left;
 }
 
 figcaption {
