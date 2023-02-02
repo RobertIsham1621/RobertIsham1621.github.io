@@ -167,19 +167,19 @@ a.icon:hover {text-decoration: none; background: #7a4f22; color: #fff;}
 
 /* FIGURE STYLES*/
 figure {
-	float: left;
     border: none;
     display: flex;
     flex-flow: column;
     padding: 20-px;
-    max-width: 500px;
+    max-width: 450px;
     margin: auto;
+	float: left;
 }
 
 figcaption {
     background-color: #222;
     color: #fff;
-    font: tiny;
+    font-size: tiny;
     padding: 3px;
     text-align: center;
 }
